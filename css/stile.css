@@ -6,3 +6,68 @@
 body{
     font-family: Montserrat;
 }
+main{
+    display: flex;
+}
+img{
+    display: block;
+}
+h3{
+    color: white;
+    display: inline;
+}
+li{
+    list-style-type: none;
+}
+.sidebar{
+    flex-basis: 17%;
+    background-color: black;
+    color: lightgray;
+
+    min-height:950px ;
+}
+/* utilities */
+.mt-30{
+    margin-top: 30px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-240{
+    margin-top: 240px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.w-180{
+    width: 180px;
+}
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.c-black{
+    color: black;
+}
+.bgc-grey{
+    background-color: lightgray;
+}
+.bd-b-grey{
+    border-bottom: 1px solid lightgray;
+}
+/* RESPONSIVE */
+/* MOBILE PHONE */
+@media screen and (max-width:500px) {
+    .sidebar{
+        max-width: 100px;
+    }
+
+}

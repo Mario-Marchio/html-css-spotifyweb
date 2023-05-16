@@ -239,3 +239,19 @@ ul{
         margin-top: 640px;
     }
 }
+.change-text:hover{
+    color: white;
+}
+.underline:hover{
+    text-decoration: underline;
+    color: white;
+}
+.bigger:hover{
+    font-size: 3rem;
+}
+.bigger-btn:hover{
+    font-size: 30px;
+}
+.b-g:hover{
+    border: 2px solid lime;
+}
